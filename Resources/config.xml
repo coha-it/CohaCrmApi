@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element required="true" type="text" scope="locale">
+            <name>apiDomain</name>
+            <label lang="de">CRM Api-Domain</label>
+            <label lang="en">CRM Api-Domain</label>
+            <value>https://api.centralstationcrm.net</value>
+            <description lang="de">Hier die API-Domain eintragen. z.B.: https://api.centralstationcrm.net</description>
+            <description lang="en">Please enter the API-Domain here. for Example.: https://api.centralstationcrm.net</description>
+        </element>
+        <element required="true" type="password" scope="locale">
+            <name>apiKey</name>
+            <label lang="de">CRM Api-Key</label>
+            <label lang="en">CRM Api-Key</label>
+            <value></value>
+            <description lang="de">Hier den API-Key eintragen. z.B.: 19b538bkazr8175...</description>
+            <description lang="en">Please enter the API-Key here. for Example.: 19b538bkazr8175...</description>
+        </element>
+    </elements>
+</config>
