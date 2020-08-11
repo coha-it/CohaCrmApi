@@ -1,0 +1,3 @@
+[submodule "includes/centralstation-php-api"]
+	path = includes/centralstation-php-api
+	url = git@github.com:coha-it/centralstation-php-api.git
